@@ -47,7 +47,7 @@ ul li:hover {
   background-color: #000;
 }
 
-ul li:hover a {
+ul li:hover * {
   color: #fff;
 }
 
@@ -233,4 +233,18 @@ ul li:hover code {
 
 .text-center {
   text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.user-list {
+  margin: 0;
+  list-style: none;
+  padding: 24px;
+}
+
+.user-list li:not(:last-child) {
+  margin-bottom: 16px;
 }
